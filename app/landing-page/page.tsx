@@ -4,6 +4,7 @@ import Image from "next/image";
 import { LuGithub, LuLinkedin } from "react-icons/lu";
 import { IoDownloadOutline } from "react-icons/io5";
 import Link from "next/link";
+import TechStack from "../components/techstack";
 
 const stats = [
     { label: "Experience", value: "1+ yr" },
@@ -96,6 +97,8 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
+
+            <TechStack />
         </section>
     );
 }

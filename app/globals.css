@@ -41,6 +41,10 @@ body {
   font-family: var(--font-sans), sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .site-container {
   width: 100%;
   max-width: 90rem;

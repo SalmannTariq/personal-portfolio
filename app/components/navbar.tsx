@@ -11,8 +11,13 @@ export default function Navbar() {
                     salman <span className="main-color">/</span> dev
                 </h1>
                 <div className="flex items-center gap-4 md:gap-6">
-                    <h5 className="hidden text-sm font-medium sm:block">Work</h5>
-                    <h5 className="hidden text-sm font-medium sm:block">Stack</h5>
+                    <a href="#work" className="hidden text-sm font-medium transition-colors hover:text-main-color sm:block">Work</a>
+                    <a
+                        href="#stack"
+                        className="hidden text-sm font-medium transition-colors hover:text-main-color sm:block"
+                    >
+                        Stack
+                    </a>
                     <div className="flex items-center gap-4">
                         <Link href="https://github.com/SalmannTariq">
                             <LuGithub className="main-color text-2xl" />
@@ -23,12 +28,12 @@ export default function Navbar() {
                     </div>
                     <Link href="/Salman Tariq - Resume.pdf" target="_blank">
                         <button
-                        type="button"
-                        className="cursor-pointer inline-flex items-center gap-2 rounded-lg bg-main-color px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-white transition-opacity hover:opacity-90 hover:bg-main-color/90"
-                    >
-                        <IoDownloadOutline className="text-lg" />
-                        Resume
-                    </button>
+                            type="button"
+                            className="cursor-pointer inline-flex items-center gap-2 rounded-lg bg-main-color px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-white transition-opacity hover:opacity-90 hover:bg-main-color/90"
+                        >
+                            <IoDownloadOutline className="text-lg" />
+                            Resume
+                        </button>
                     </Link>
                 </div>
             </div>
