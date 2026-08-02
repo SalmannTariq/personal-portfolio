@@ -52,9 +52,26 @@ html {
   padding-inline: 1.5rem;
 }
 
+.section-block {
+  padding-block: 4rem;
+  scroll-margin-top: 6rem;
+}
+
+.section-header {
+  margin-bottom: 2.5rem;
+}
+
 @media (min-width: 768px) {
   .site-container {
     padding-inline: 3rem;
+  }
+
+  .section-block {
+    padding-block: 5rem;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
   }
 }
 

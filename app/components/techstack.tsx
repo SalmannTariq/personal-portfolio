@@ -117,12 +117,9 @@ export default function TechStack() {
   const allTools = stackCategories.flatMap((c) => c.items);
 
   return (
-    <section
-      id="stack"
-      className="scroll-mt-24 relative overflow-hidden  py-14 md:py-20"
-    >
-      <div className="site-container relative">
-        <div className="mb-10 flex flex-col gap-6 lg:mb-12 lg:flex-row lg:items-end lg:justify-between">
+    <section id="stack" className="section-block border-t border-border-light">
+      <div className="site-container">
+        <div className="section-header flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-xl space-y-3">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-main-color ring-1 ring-peach-dark/60">
               <span className="h-1.5 w-1.5 rounded-full bg-main-color" />

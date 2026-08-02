@@ -7,11 +7,16 @@ export default function Navbar() {
     return (
         <header className="w-full">
             <div className="site-container flex items-center justify-between py-4 md:py-5">
-                <h1 className="text-lg font-semibold md:text-xl">
+                <h1 className="cursor-pointer text-lg font-semibold md:text-xl">
                     salman <span className="main-color">/</span> dev
                 </h1>
                 <div className="flex items-center gap-4 md:gap-6">
-                    <a href="#work" className="hidden text-sm font-medium transition-colors hover:text-main-color sm:block">Work</a>
+                    <a
+                        href="#contact"
+                        className="hidden text-sm font-medium transition-colors hover:text-main-color sm:block"
+                    >
+                        Contact
+                    </a>
                     <a
                         href="#stack"
                         className="hidden text-sm font-medium transition-colors hover:text-main-color sm:block"
